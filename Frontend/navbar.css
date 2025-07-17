@@ -12,14 +12,14 @@ body {
 }
 
 .navlinks {
-    font-family: "Intel One Mono", monospace;
+    font-family: "DM Sans", sans-serif;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .navlinks a {
     text-decoration: none;
-    color: white;  
+    color: white;
     padding-bottom: 20px;
 }
 

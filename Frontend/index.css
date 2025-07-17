@@ -1,3 +1,34 @@
-body{
+body {
     background-color: rgba(0, 0, 0, 0.952);
+    font-family: "DM Sans", sans-serif;
+}
+
+.short-about-me {
+    justify-content: center;
+    margin: 80px auto;
+    border: 1px solid rgb(53, 53, 53);
+    width: 40%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.short-about-me h2 {
+    color: white;
+    margin: 0;
+    font-size: 23px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.my-location {
+    color: gray;
+    font-size: 11px;
+    margin-top: -10px;
+}
+
+.my-description{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.1px;
 }
