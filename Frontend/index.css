@@ -1,11 +1,13 @@
 body {
     background-color: rgba(0, 0, 0, 0.952);
     font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .short-about-me {
     justify-content: center;
-    margin: 80px auto;
+    margin: 80px auto 20px auto;
     border: 1px solid rgb(53, 53, 53);
     width: 40%;
     border-radius: 5px;
@@ -23,7 +25,6 @@ body {
 .my-location {
     color: gray;
     font-size: 11px;
-    margin-top: -10px;
 }
 
 .my-description{
@@ -31,4 +32,47 @@ body {
     font-size: 14px;
     font-weight: 200;
     letter-spacing: 0.1px;
+    margin: 0;
+}
+
+.my-developer-toolkit-header {
+    width: 40%;
+    margin: 5px auto 0 auto;
+}
+
+.my-developer-toolkit-header h2 {
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+    text-align: left;
+    padding: 0;
+}
+
+.toolkit-carousel-wrapper{
+    width: 40%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.toolkit-carousel{
+  display: flex;
+  gap: 12px;
+  width: max-content;
+  animation: scroll-left 50s linear infinite;
+}
+
+.toolkit-item{
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
